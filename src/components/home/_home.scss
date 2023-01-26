@@ -1,0 +1,55 @@
+.App-header {
+  background-image: url("/src/assets/images/welcome.jpg");
+  @include bg-attatched;
+  width: 100%;
+  height: 100vh;
+  .welcoming-title {
+    font-size: 10vw;
+    padding: 25vh 0;
+    text-align: center;
+  }
+}
+
+.app-explanation {
+  background-image: url("/src/assets/images/texture.png");
+  width: 100%;
+  @include flex-centered;
+  .exp-title {
+    margin: 10vh 0 5vh 0;
+    font-size: 5vw;
+    text-align: center;
+  }
+  .texts {
+    margin: 5vh 0;
+    font-family: "Rajdhani", sans-serif;
+    letter-spacing: 2px;
+    font-size: 4vw;
+    width: 80vw;
+    text-align: center;
+  }
+  .exp-bye {
+    margin: 5vh 0 10vh 0;
+  }
+}
+
+.app-options {
+  width: 100vw;
+  height: 100vh;
+  .options {
+    @include flex-centered;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    .option-text{
+      @include text-deco-none;
+      font-size: 10vw;
+      font-weight: 400;
+    }
+  }
+  .menu {
+    background-image: url("/src/assets/images/bg-images/menu-option.png");
+  }
+  .locals {
+    background-image: url("/src/assets/images/bg-images/local-option.png");
+  }
+}

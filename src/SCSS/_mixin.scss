@@ -1,0 +1,21 @@
+@mixin flex-centered {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin bg-attatched {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@mixin text-deco-none {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}

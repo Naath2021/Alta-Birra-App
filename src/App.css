@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
+*,
+*:before,
+*:after {
+  font-family: "Zen Dots", cursive;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  scroll-behavior: smooth; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.body {
+  background-color: #38111f;
+  color: #f2ead0;
+  min-height: 100vh; }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("/src/assets/images/welcome.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; }
+  .App-header .welcoming-title {
+    font-size: 10vw;
+    padding: 25vh 0;
+    text-align: center; }
+
+.app-explanation {
+  background-image: url("/src/assets/images/texture.png");
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center; }
+  .app-explanation .exp-title {
+    margin: 10vh 0 5vh 0;
+    font-size: 5vw;
+    text-align: center; }
+  .app-explanation .texts {
+    margin: 5vh 0;
+    font-family: "Rajdhani", sans-serif;
+    letter-spacing: 2px;
+    font-size: 4vw;
+    width: 80vw;
+    text-align: center; }
+  .app-explanation .exp-bye {
+    margin: 5vh 0 10vh 0; }
 
-.App-link {
-  color: #61dafb;
-}
+.app-options {
+  width: 100vw;
+  height: 100vh; }
+  .app-options .options {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-position: center;
+    background-size: cover; }
+    .app-options .options .option-text {
+      text-decoration: none;
+      list-style: none;
+      list-style-type: none;
+      font-size: 10vw;
+      font-weight: 400; }
+  .app-options .menu {
+    background-image: url("/src/assets/images/bg-images/menu-option.png"); }
+  .app-options .locals {
+    background-image: url("/src/assets/images/bg-images/local-option.png"); }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.footer-container {
+  width: 100vw; }
+  .footer-container .footer-title {
+    font-size: 6vw;
+    padding: 10vh 0 5vh 0;
+    text-align: center; }
+  .footer-container .footer-subtitle {
+    padding: 5vh 0 3vh 0;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 100; }
+  .footer-container .footer-text {
+    font-weight: 100;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    font-size: 3vw; }
+  .footer-container .hh-subtitle {
+    font-size: 5vw;
+    color: #f28705; }
+  .footer-container .hh-text {
+    font-size: 4vw;
+    color: #f28705;
+    font-weight: 500; }
+  .footer-container .disclaimer {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Rajdhani';
+    font-size: 3vw;
+    margin: 10vh 3vw 5vh 3vw; }
