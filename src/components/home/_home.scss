@@ -5,18 +5,27 @@
   height: 100vh;
   .welcoming-title {
     font-size: 10vw;
-    padding: 25vh 0;
     text-align: center;
+    padding-top: 25vh;
+    letter-spacing: 6px;
+  }
+  .welcoming-subtitle{
+    text-align: center;
+    font-size: 7vw;
+    padding-bottom: 20vh;
+    font-weight: 500;
+    font-family: "Rajdhani", sans-serif;
+    letter-spacing: 6px;
   }
 }
 
 .app-explanation {
-  background-image: url("/src/assets/images/texture.png");
+  background-image: url("/src/assets/images/bg-images/nebula-texture.png");
   width: 100%;
   @include flex-centered;
   .exp-title {
     margin: 10vh 0 5vh 0;
-    font-size: 5vw;
+    font-size: 9vw;
     text-align: center;
   }
   .texts {

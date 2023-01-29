@@ -1,35 +1,42 @@
 .footer-container {
   width: 100vw;
   .footer-title {
-    font-size: 6vw;
-    padding: 10vh 0 5vh 0;
     text-align: center;
+    padding-top: 10vh;
+    font-size: 8vw;
+    letter-spacing: 6px;
+  }
+  .footer-name-subtitle {
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 400;
+    font-family: "Rajdhani", sans-serif;
   }
   .footer-subtitle {
     padding: 5vh 0 3vh 0;
     text-align: center;
-    font-size: 4vw;
+    font-size: 6vw;
     font-weight: 100;
   }
   .footer-text {
     font-weight: 100;
     font-family: "Rajdhani", sans-serif;
     text-align: center;
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .hh-subtitle {
-    font-size: 5vw;
+    font-size: 7vw;
     color: $highlights;
   }
-  .hh-text{
+  .hh-text {
     font-size: 4vw;
     color: $highlights;
     font-weight: 500;
   }
-  .disclaimer{
+  .disclaimer {
     text-align: center;
     font-weight: 400;
-    font-family: 'Rajdhani';
+    font-family: "Rajdhani";
     font-size: 3vw;
     margin: 10vh 3vw 5vh 3vw;
   }
